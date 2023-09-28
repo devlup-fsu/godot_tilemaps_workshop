@@ -10,9 +10,7 @@ tile_size = Vector2i(32, 32)
 [node name="Node2D" type="Node2D"]
 
 [node name="TileMap" type="TileMap" parent="."]
-z_index = -10
 tile_set = SubResource("TileSet_qgm1h")
-cell_quadrant_size = 32
 format = 2
 script = ExtResource("1_iqnua")
 metadata/main = false
